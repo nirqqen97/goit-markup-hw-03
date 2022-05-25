@@ -11,24 +11,18 @@
 }
 .button{
     cursor: pointer;
+
 }
-.portfolio-hero-btn:focus{
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--first-button-color);
-    background-color: var(--accent-color);
-    
-}    
-.portfolio-hero-btn:hover{
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--first-button-color);
-    background-color: var(--accent-color);
+.link{
+    text-decoration: none;
 }
+.list{
+    list-style: none;
+}
+.container{
+    width: 1200px;
+}
+/* ---------------------------------------------HEADER------------------------------- */
 .header-logo link{
     color: var(--accent-color);
 }
@@ -78,13 +72,7 @@ color:var(--accent-color)
     color:var(--accent-color)
     }
 
-.link{
-    text-decoration: none;
-}
-.list{
-    list-style: none;
 
-}
 .header-logo{
     font-family: Raleway;
     font-style: normal;
@@ -221,6 +209,23 @@ font-size: 16px;
 line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;    
+}
+.portfolio-hero-btn:focus{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+    
+}    
+.portfolio-hero-btn:hover{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
 }
 .current{
     color: var(--accent-color);
