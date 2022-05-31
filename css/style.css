@@ -88,15 +88,18 @@ body{
 }
 
 .hero{
-    background-color: var(--header-background-color)
+    background-color: var(--header-background-color);
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 .header-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color:var(--header-text-color)
-    
+    color:var(--header-text-color);;
+    padding-bottom: 32px;
+    padding-top: 32px;
 
 }
 .header-tel{
@@ -104,7 +107,9 @@ body{
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color:var(--second-text-color)
+    color:var(--second-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 .header-contacts{
@@ -112,7 +117,9 @@ body{
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color:var(--second-text-color)
+    color:var(--second-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-link:hover {
 color:var(--accent-color)
@@ -135,16 +142,11 @@ color:var(--accent-color)
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    max-width: 696px;
     
 }
 /*---------------------------------hero-------------------------*/
 
-.hero-right{
-    padding-top: 200px;
-    padding-bottom: 280px;
-    
-}
+
 
 
 .hero-title{   
@@ -166,20 +168,22 @@ color:var(--accent-color)
     letter-spacing: 0.06em;
     color: var(--first-button-color);
     background-color: var(--accent-color);
-    margin-top: 30px;
     width: 200px;
     height: 50px;
     margin-left: 500px;
    
 }
 /*---------------------------------about-------------------------*/
+.about-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-inline-start: 0px;
 
+}
 
 .about-item{
-    padding-top: 50px;
     margin-left: 30px;
-    max-width: 270px;
-    justify-content:space-between;
+    width: 270px;
     
     
 }
