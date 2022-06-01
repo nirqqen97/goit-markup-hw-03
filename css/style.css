@@ -23,8 +23,6 @@ ol {
     --footer-text-color:#FFFFFF99;
     --team-background-color:#F5F4FA;
     --border-color:#EEEEEE;
-
-
 }
 img{
     display: block;
@@ -32,6 +30,8 @@ img{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC;
+
 }
 .header-info{
     margin-right: 50px;
@@ -41,6 +41,7 @@ img{
 }
 .header-item{
     margin-right: 50px;
+    box-sizing: border-box;
 }
 .header-item:last-child{
     margin-right: 0px;
@@ -111,7 +112,6 @@ body{
     color:var(--header-text-color);;
     padding-bottom: 32px;
     padding-top: 32px;
-
 }
 .header-tel{
     font-weight: 500;
@@ -184,7 +184,7 @@ color:var(--accent-color)
     width: 200px;
     height: 50px;
     margin-left: 500px;
-   
+   margin-top: 40px;
 }
 /*---------------------------------about-------------------------*/
 .about{
@@ -272,11 +272,21 @@ padding-bottom: 94px;
     }
     .team-list{
         padding-inline-start: 0px;
+        margin: 0;
 
     }
     .team-item{
         margin-left: 30px;
-        justify-content: space-between;        
+        justify-content: space-between;   
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+        border-radius: 0px 0px 4px 4px;
+        border: 1px solid #c5c5c5;
+        border-top: 0     
+    }
+    .team-div{
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 /*---------------------------------contacts-------------------------*/
 .contacts-link{
@@ -298,7 +308,16 @@ padding-bottom: 94px;
 
 }
 
-
+/* ---------------------------------------------------------------------------------------PORTFOLIO-HERO------------------------------------------------------ */
+.portfolio-wrap{
+    padding: 20px 24px;
+}
+.porfolio-hero1{
+    padding-top: 56px;
+}
+.portfolio-hero{
+    margin-top: 100px;
+}
 .portfolio-hero-title{
     font-weight: bold;
     font-size: 18px;
@@ -328,8 +347,8 @@ footer{
     border-radius: 4px;
     border: 0px;
     padding: 6px 22px;
-
-    background-color: var(--second-background-color);
+    background-color: var(--team-background-color);
+    
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -337,12 +356,9 @@ footer{
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--main-title-color);
     cursor: pointer;
-
-
-
+   
 }
 .current{
     color: var(--accent-color);
@@ -369,8 +385,7 @@ address {
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+ 
    
 }
 
@@ -383,16 +398,13 @@ address {
 
 .porfolio-hero-item1{
 margin-right: 30px;
+margin-bottom: 30px;
+border: 1px solid #EEEEEE;
+
 }
 .porfolio-hero-item1:nth-child(3n) {
     margin-right: 0;}
-/*
-.porfolio-hero-list1{
-    padding-right: 215px;
-    flex-wrap: wrap;
-    padding-left: 215px;
-}
-*/
+
 .porfolio-hero-list1{
     flex-wrap:wrap;
     padding-inline-start: 0px;
@@ -405,14 +417,16 @@ margin-right: 30px;
     
 
 .porfolio-hero-list{
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 .main-wrap{
-    padding-left: 10px;
-    padding-right: 10px;
     background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 /* ------------------------------------------------------------------footer------------------------------------------------------- */
 .footer{
@@ -427,7 +441,6 @@ box-sizing: border-box;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    padding-left: 215px;
 
 }
 .contacts-link-addres{
@@ -438,7 +451,4 @@ box-sizing: border-box;
     color: var(--first-button-color);    
     margin-bottom: 9px;
     
-}
-.contacts-list{
-    margin-left: 215px;
 }
