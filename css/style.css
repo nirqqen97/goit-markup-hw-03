@@ -26,6 +26,8 @@ ol {
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .header{
     /* padding-top: 24px;
@@ -115,6 +117,7 @@ body{
     padding-top: 32px;
 }
 .header-tel{
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.33;
@@ -149,6 +152,8 @@ color:var(--accent-color)
 
 }
 .header-logo{
+    padding: 24px 0;
+    display: block;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -224,6 +229,9 @@ padding-bottom: 94px;
     color:var(--second-text-color)
 }
 /*---------------------------------about-second-------------------------*/
+.about-second-list{
+    margin-left: -30px;
+}
 .about-second{
     padding-bottom: 94px;
 }
@@ -240,7 +248,6 @@ padding-bottom: 94px;
 }
 .about-second-item{
     margin-left: 30px;
-    justify-content: space-between;
 }
 
 /*---------------------------------team-------------------------*/
@@ -291,6 +298,9 @@ padding-bottom: 94px;
         padding-bottom: 30px;
     }
 /*---------------------------------contacts-------------------------*/
+.contacts-list{
+    display: block;
+}
 .contacts-link{
     font-weight: normal;
     font-size: 14px;
@@ -387,6 +397,8 @@ address {
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
  
    
 }
@@ -436,6 +448,7 @@ border: 1px solid #EEEEEE;
     padding-top: 60px;
 }
 .header-logo-footer{
+    margin-bottom: 20px;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
