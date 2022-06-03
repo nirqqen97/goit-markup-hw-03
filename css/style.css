@@ -104,6 +104,10 @@ body{
 
 .hero{
     background-color: var(--header-background-color);
+    background-image: url(/1/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-bottom: 200px;
     padding-top: 200px;
 }
