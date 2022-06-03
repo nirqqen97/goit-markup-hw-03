@@ -94,6 +94,7 @@ color:var(--main-text-color)
 }
 .header-studio-footer{
     color: var(--first-button-color);
+    margin-bottom: 20px;
 }
 body{
     font-family: 'Roboto', sans-serif; 
@@ -328,7 +329,8 @@ padding-bottom: 94px;
     padding-top: 56px;
 }
 .portfolio-hero{
-    margin-top: 100px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .portfolio-hero-title{
     font-weight: bold;
@@ -336,7 +338,6 @@ padding-bottom: 94px;
     line-height: 2;
     color: var(--main-text-color);
     letter-spacing: 0.06em;
-    margin-top: 20px;
 
 }
 .portfolio-hero-text{
@@ -406,9 +407,6 @@ address {
 .contacts-item{
     margin-bottom: 9px;
 }
-.contacts-item:last-child{
-    margin-bottom: 60px;
-}
 
 .porfolio-hero-item1{
 margin-right: 30px;
@@ -434,6 +432,7 @@ border: 1px solid #EEEEEE;
     display: flex;
     justify-content: center;
     margin: 0;
+    margin-bottom: 50px;
 }
 .main-wrap{
     background: #FFFFFF;
