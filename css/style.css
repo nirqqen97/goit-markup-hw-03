@@ -202,6 +202,7 @@ color:var(--accent-color)
 .about{
 padding-top: 94px;
 padding-bottom: 94px;
+margin-left: 0px;
 }
 .about-list{
     margin-top: 0px;
@@ -247,7 +248,7 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color); 
-    padding-bottom: 50px;
+    margin-bottom: 50px;
  
  
 }
@@ -263,7 +264,7 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-  padding-bottom: 50px;
+    margin-bottom: 50px;
     
 }
 .team-item-title{
@@ -273,7 +274,7 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .team-item-text{
     font-weight: normal;
@@ -388,6 +389,7 @@ footer{
 }
 address {
     font-style: normal;
+    padding-top: 20px;
 }
 .current-btn{ 
     color: var(--first-button-color);
@@ -418,6 +420,9 @@ margin-bottom: 30px;
 border: 1px solid #EEEEEE;
 
 }
+.porfolio-hero-item1:nth-child(n+7){
+    margin-bottom: 0px;
+}
 .porfolio-hero-item1:nth-child(3n) {
     margin-right: 0;}
 
@@ -427,7 +432,6 @@ border: 1px solid #EEEEEE;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
     justify-content: center;
 }
     
