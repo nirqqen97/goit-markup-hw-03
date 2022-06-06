@@ -261,6 +261,9 @@ margin-left: 0px;
 }
 
 /*---------------------------------team-------------------------*/
+.team-item:first-child{
+    margin-left: 0px;
+}
 .team-title{
     font-weight: bold;
     font-size: 36px;
